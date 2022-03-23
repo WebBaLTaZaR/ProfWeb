@@ -1,0 +1,56 @@
+header {
+  background-color: #222222;
+}
+.header__conteiner {
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .header__conteiner {
+    padding: 18px 32px;
+  }
+}
+@media (max-width: 460px) {
+  .header__conteiner {
+    padding: 18px 26px 18px 16px;
+  }
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 41px;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+.profile {
+  margin: 0 33px;
+}
+.busket {
+  position: relative;
+}
+.busket__number {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  text-align: center;
+
+  top: -8px;
+  right: -8px;
+  color: white;
+  border-radius: 50%;
+  background: #f16d7f;
+}
+@media (max-width: 460px) {
+  .profile,
+  .busket {
+    display: none;
+  }
+}
