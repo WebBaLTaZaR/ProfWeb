@@ -27,12 +27,29 @@
               ><img src="img/profile.svg" alt="profile"
             /></a>
 
-            <a class="busket" href="cart.html"
+            <a class="busket" href="#"
               ><img src="img/basket.svg" alt="basket" /><span
                 class="busket__number"
-                >5</span
-              >
+                >0</span
+              > 
             </a>
+            <div class="busketMenu">
+              <ul class="busketConst">
+                <li>Название товара</li>
+                <li>Количество</li>
+                <li>Цена за шт.</li>
+                <li>Итого</li>
+              </ul>
+              
+              <ul class="busketWar">
+                <li class="busketProductName"></li>
+                <li class="busketID"></li>
+                <li class="busketPrice"></li>
+                <li class="busketAllPrice"></li>
+              </ul>
+              
+              <span>Товаров в корзине на сумму: $<span class="busketTotalPrice"></span></span>
+            </div>
           </div>
         </nav>
       </header>
@@ -129,7 +146,6 @@
                 alt="the guy with the backpack"
               />
               <div class="fetured__img-dark">
-                <form action="cart.html">
                   <button class="add__to-cart-button">
                     <img
                       class="add__to-cart-basket"
@@ -138,7 +154,6 @@
                     />
                     Add to Cart
                   </button>
-                </form>
               </div>
             </div>
 
@@ -367,5 +382,6 @@
       </footer>
     </div>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="basket.js"></script>
   </body>
 </html>
