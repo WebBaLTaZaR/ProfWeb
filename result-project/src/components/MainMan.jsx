@@ -1,6 +1,6 @@
 function MainMan() {
   return (
-    <>
+    <div className="mainManWrap">
       <div className="main__limit">
         <div className="main__man">
           <img
@@ -17,7 +17,7 @@ function MainMan() {
           </h1>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

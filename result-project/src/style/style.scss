@@ -1,17 +1,12 @@
 @import "nool.scss";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,600;0,700;0,900;1,300&display=swap");
-body {
-  font-family: "Lato", sans-serif;
-  min-height: 100vh;
-  
-}
 .conteiner {
+  font-family: "Lato", sans-serif;
   min-height: 100vh;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
 }
 .limit__content {
   max-width: 1140px;
@@ -21,12 +16,14 @@ body {
   display: none;
 }
 
-
 @import "header.scss";
 @import "basketMenu.scss";
-@import "footer.scss";
 @import "index.scss";
+@import "accesories.scss";
+@import "delivery.scss";
+@import "fetured.scss";
 @import "catalog.scss";
 @import "product.scss";
 @import "cart.scss";
 @import "registration.scss";
+@import "footer.scss";

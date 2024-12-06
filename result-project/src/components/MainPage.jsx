@@ -9,15 +9,13 @@ function MainPage() {
   return (
     <>
       <div className="conteiner">
-        
-          <Header />
-          <MainMan />
-          <MainMenu />
-          <Accesories />
-          <Fetured />
-          <Delivery />
-          <Footer/>
-        
+        <Header />
+        <MainMan />
+        <MainMenu />
+        <Accesories />
+        <Fetured />
+        <Delivery />
+        <Footer />
       </div>
     </>
   );
