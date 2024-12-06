@@ -1,0 +1,160 @@
+.mainProduct {
+  background-color: #f7f7f7;
+  align-items: center;
+  position: relative;
+  height: 777px;
+  border: 1px solid rgba(234, 234, 234, 1);
+}
+@media (max-width: 768px) {
+  .mainProduct {
+    height: 768px;
+  }
+}
+@media (max-width: 460px) {
+  .mainProduct {
+    height: 624px;
+  }
+}
+.mainProductImg {
+  margin: 0 auto;
+  height: inherit;
+}
+.mainProductImg img {
+  width: 100%;
+  object-fit: contain;
+  height: inherit;
+}
+
+.mainProduct-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.mainProductArrow {
+  width: 47px;
+  height: 47px;
+  background: #d8d8d8;
+}
+
+/*=========================WOMANCOLLECTION=========================*/
+
+.womanCollection-back {
+  min-height: 664px;
+  position: relative;
+}
+.womanCollectionContent {
+  background: #ffffff;
+  top: -45px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(234, 234, 234, 1);
+  padding: 65px 249px;
+}
+.womanCollectionItem {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #f16d7f;
+}
+.womanCollectionItem-hr {
+  margin: 12px 0;
+  width: 63px;
+  border-bottom: 3px solid rgba(239, 91, 112, 1);
+}
+.womanCollectionContent p {
+  padding: 48px 45px 32px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #5e5e5e;
+}
+.womanCollectionPrice {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ef5b70;
+}
+.womanCollectionPrice-hr {
+  width: 100%;
+  margin: 65px 0;
+  border-bottom: 1px solid rgba(234, 234, 234, 1);
+}
+.womanCollectionFilter {
+  padding-bottom: 48px;
+}
+.womanCollectionFilterItem {
+  padding-left: 23px;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #6f6e6e;
+}
+.filterButton {
+  color: rgba(242, 99, 118, 1);
+  border: 1px solid #f26376;
+  padding: 15px 57px 9px 24px;
+}
+@media (max-width: 768px) {
+  .womanCollection-back {
+    min-height: 729px;
+  }
+  .womanCollectionContent {
+    padding: 65px 63px;
+    top: 0;
+  }
+}
+@media (max-width: 460px) {
+  .womanCollection-back {
+    min-height: 610px;
+  }
+  .womanCollectionContent {
+    padding: 65px 25px;
+  }
+  .womanCollectionContent p {
+    padding: 32px 0;
+  }
+  .womanCollectionPrice-hr {
+    width: 175px;
+    margin: 32px 0 49px;
+  }
+  .womanCollectionFilterItem {
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 25px;
+  }
+}
+.feture__card-product {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+}
+@media (max-width: 768px) {
+  .feture__card-product {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cardHidden-middle {
+    display: none;
+  }
+}
+@media (max-width: 460px) {
+  .feture__card-product {
+    grid-template-columns: 1fr;
+  }
+  .cardHidden-small {
+    display: none;
+  }
+  .cardHidden-middle {
+    display: block;
+  }
+}

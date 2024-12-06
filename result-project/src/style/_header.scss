@@ -1,0 +1,60 @@
+header {
+  position: sticky;
+  top: 0;
+  background-color: #222222;
+  z-index: 10;
+}
+.header__conteiner {
+  display: flex;
+  align-items: center;
+  padding: 18px 0;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .header__conteiner {
+    padding: 18px 32px;
+  }
+}
+@media (max-width: 460px) {
+  .header__conteiner {
+    padding: 18px 26px 18px 16px;
+  }
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 41px;
+}
+
+.header__right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.profile {
+  margin: 0 33px;
+}
+.busket {
+  position: relative;
+}
+.basket__number {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  text-align: center;
+
+  top: -8px;
+  right: -8px;
+  color: white;
+  border-radius: 50%;
+  background: #f16d7f;
+}
+@media (max-width: 460px) {
+  .profile,
+  .busket {
+    display: none;
+  }
+}

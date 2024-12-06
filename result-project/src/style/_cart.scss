@@ -1,0 +1,291 @@
+.mangoPeople-wrap {
+  display: flex;
+  padding: 96px 0 128px;
+}
+@media (max-width: 768px) {
+  .mangoPeople-wrap {
+    flex-direction: column;
+    padding: 59px 18px 128px 16px;
+  }
+}
+@media (max-width: 460px) {
+  .mangoPeople-wrap {
+    padding: 39px 8px 96px 9px;
+  }
+}
+.mangoPeople-left {
+  margin-right: 128px;
+}
+.mangoPeople-right {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .mangoPeople-left {
+    margin: 0;
+  }
+  .mangoPeople-right {
+    flex-direction: row;
+    margin-top: 64px;
+    align-items: center;
+  }
+}
+@media (max-width: 460px) {
+  .mangoPeople-right {
+    flex-direction: column;
+    margin-top: 48px;
+  }
+  
+}
+
+.shoppingCart {
+  height: 148px;
+  background: #f8f3f4;
+}
+.shoppingCart-wrap {
+  height: inherit;
+}
+.shoppingCartItem {
+  height: inherit;
+  padding: 60px 0;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
+@media (max-width: 768px) {
+  .shoppingCartItem {
+    padding-left: 16px;
+  }
+}
+@media (max-width: 460px) {
+  .shoppingCartItem {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+.mangoPeopleCart {
+  width: 652px;
+  height: 306px;
+  box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  display: flex;
+}
+@media (max-width: 768px) {
+  .mangoPeopleCart {
+    width: 734px;
+  }
+}
+
+.mangoPeopleCart-margin {
+  margin: 40px 0 72px;
+}
+@media (max-width: 460px) {
+  .mangoPeopleCart {
+    width: 358px;
+    height: 188px;
+    margin: 0 auto;
+  }
+  .mangoPeopleCart-margin {
+    margin: 32px auto 30px;
+  }
+}
+.mangoImg {
+  width: 262px;
+  height: 306px;
+}
+.mangoImg img {
+  display: block;
+  width: inherit;
+  height: inherit;
+}
+.mangoDiscription {
+  padding: 22px 156px 62px 31px;
+  position: relative;
+}
+@media (max-width: 768px) {
+  .mangoDiscription {
+    padding-right: 232px;
+  }
+}
+@media (max-width: 768px) {
+  .mangoDiscription {
+    padding: 13px 59px 37px 17px;
+  }
+}
+.mangoDiscriptionTitle {
+  margin-bottom: 42px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222222;
+}
+.mangoDiscriptionItems {
+  font-size: 22px;
+  line-height: 26px;
+  color: #575757;
+}
+@media (max-width: 460px) {
+  .mangoImg {
+    width: 143px;
+    height: 188px;
+  }
+  .mangoDiscriptionTitle {
+    margin-bottom: 25px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .mangoDiscriptionItems {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+.mangoDiscriptionClosed {
+  position: absolute;
+  top: 27px;
+  right: 23px;
+  background: url("../../public/img/Close.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+}
+@media (max-width: 768px) {
+  .mangoDiscriptionClosed {
+    top: 19px;
+    right: -96px;
+  }
+}
+@media (max-width: 460px) {
+  .mangoDiscriptionClosed {
+    width: 10px;
+    height: 11px;
+    top: 19px;
+    right: 16px;
+  }
+}
+
+.mangoDiscriptionItems-red {
+  color: #ef5b70;
+}
+.mangoDiscriptionItems-border {
+  border: 1px solid rgba(234, 234, 234, 1);
+  margin-left: 24px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #656565;
+  display: inline-block;
+  width: 44px;
+  text-align: center;
+}
+@media (max-width: 460px) {
+  .mangoDiscriptionItems-border {
+    font-size: 10px;
+    line-height: 12px;
+    width: 24px;
+  }
+}
+
+.shoppingButton {
+  display: flex;
+  justify-content: center;
+}
+.shoppingButtonItem {
+  padding: 16px 40px;
+  border: 1px solid rgba(164, 164, 164, 1);
+  background: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  text-transform: uppercase;
+}
+.shoppingButton-left {
+  margin-right: 183px;
+}
+@media (max-width: 768px) {
+  .shoppingButton-left {
+    margin-right: 48px;
+  }
+}
+@media (max-width: 460px) {
+  .shoppingButtonItem {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 9px 18px;
+    color: #575757;
+    text-transform: capitalize;
+    width: 175px;
+  }
+  .shoppingButton-left {
+    margin-right: 8px;
+  }
+}
+.shoppingAdres {
+  width: 360px;
+  height: 272px;
+  margin-bottom: 74px;
+}
+@media (max-width: 768px) {
+  .shoppingAdres {
+    margin: 0 15px 0 0;
+  }
+}
+@media (max-width: 460px) {
+  .shoppingAdres {
+    margin: 0 0 48px;
+  }
+}
+.shoppingInput {
+  margin-top: 20px;
+  padding: 13px 17px 16px;
+  border: 1px solid rgba(164, 164, 164, 1);
+  width: 100%;
+}
+.shoppingGetButton {
+  margin-top: 23px;
+  padding: 10px 15px 12px;
+  border: 1px solid rgba(164, 164, 164, 1);
+  background: rgba(255, 255, 255, 1);
+}
+.totalPrice {
+  width: 360px;
+  height: 214px;
+  background: rgba(245, 243, 243, 1);
+  padding: 39px 34px 42px 44px;
+}
+.subTotalPrice {
+  margin-bottom: 12px;
+  font-size: 11px;
+  line-height: 13px;
+  color: #4a4a4a;
+  text-align: right;
+}
+.subTotalPrice span {
+  margin-left: 20px;
+}
+.grandTotalPrice {
+  text-align: right;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222222;
+}
+.grandTotalPrice span {
+  margin-left: 20px;
+  color: rgba(241, 109, 127, 1);
+}
+.totalPrice-hr {
+  border-bottom: 1px solid rgba(226, 226, 226, 1);
+  margin-bottom: 17px;
+  margin-top: 21px;
+  width: 275px;
+}
+
+.totalPriceButton {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: rgba(241, 109, 127, 1);
+  padding: 15px 42px;
+}
