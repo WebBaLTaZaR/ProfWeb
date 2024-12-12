@@ -35,17 +35,17 @@
     flex-direction: column;
     margin-top: 48px;
   }
-  
 }
 
-.shoppingCart {
+.titlePageCart {
+  font-weight: 400;
   height: 148px;
   background: #f8f3f4;
 }
-.shoppingCart-wrap {
+.titlePageCart-wrap {
   height: inherit;
 }
-.shoppingCartItem {
+.titlePageCartItem {
   height: inherit;
   padding: 60px 0;
   font-size: 24px;
@@ -53,12 +53,12 @@
   color: #f16d7f;
 }
 @media (max-width: 768px) {
-  .shoppingCartItem {
+  .titlePageCartItem {
     padding-left: 16px;
   }
 }
 @media (max-width: 460px) {
-  .shoppingCartItem {
+  .titlePageCartItem {
     text-align: center;
     padding-left: 0;
   }

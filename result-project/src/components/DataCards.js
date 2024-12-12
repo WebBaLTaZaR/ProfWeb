@@ -1,0 +1,73 @@
+const products = [
+    {
+        id: 0,
+        url: 'img/card0.png',
+        name: 'Product 0',
+        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
+        price: 52.22,
+    },
+    {
+        id: 1,
+        url: 'img/card1.png',
+        name: 'Product 1',
+        description: 'Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.',
+        price: 32.12,
+    },
+    {
+        id: 2,
+        url: 'img/card2.png',
+        name: 'Product 2',
+        description: 'Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.',
+        price: 82.87,
+    },
+    {
+        id: 3,
+        url: 'img/card3.png',
+        name: 'Product 3',
+        description: 'In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.',
+        price: 22.39,
+    },
+    {
+        id: 4,
+        url: 'img/card4.png',
+        name: 'Product 4',
+        description: 'Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.',
+        price: 92.99,
+    },
+    {
+        id: 5,
+        url: 'img/card5.png',
+        name: 'Product 5',
+        description: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+        price: 12.55,
+    },
+    {
+        id: 6,
+        url: 'img/NewCard6.png',
+        name: 'Product 6',
+        description: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.',
+        price: 14.25,
+    },
+    {
+        id: 7,
+        url: 'img/NewCard7.png',
+        name: 'Product 7',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tristique purus ac orci faucibus, id maximus leo molestie. Praesent in ante ac magna accumsan elementum eget ut leo.',
+        price: 110.01,
+    },
+    {
+        id: 8,
+        url: 'img/NewCard8.png',
+        name: 'Product 8',
+        description: 'Proin eu arcu lectus. Maecenas eget orci a massa sodales ullamcorper. Fusce a felis diam. Integer nec tellus metus.',
+        price: 59.99,
+    },
+    {
+        id: 9,
+        url: 'img/NewCard9.png',
+        name: 'Product 9',
+        description: 'Sed ex erat, bibendum vitae pulvinar et, aliquet in sapien. Suspendisse quis consectetur sapien.',
+        price: 129.99,
+    },
+];
+export default products;

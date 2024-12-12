@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-function MainMenu() {
+function MainMenu({ isHidden, handleClickHidden }) {
   return (
     <>
       <main>
-        <div className="main__dark hidden">
+        <div className={`main__dark ${isHidden ? "hidden" : ""}`}>
           <div className="nav__menu">
-            <img className="close__item" src="img/Close.png" alt="Close" />
+            <img onClick={handleClickHidden} className="close__item" src="img/Close.png" alt="Close" />
             <div className="menu">MENU</div>
             <Link to="/" className="menu__ul">
               MAN

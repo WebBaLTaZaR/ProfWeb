@@ -1,3 +1,6 @@
+.headerWrapMenu {
+  position: relative;
+}
 header {
   position: sticky;
   top: 0;
@@ -33,23 +36,33 @@ header {
   display: flex;
   align-items: center;
 }
+.burger {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 .profile {
   margin: 0 33px;
 }
+
 .busket {
   position: relative;
 }
 .basket__number {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 19px;
   height: 19px;
   position: absolute;
   text-align: center;
-
+  padding: 2px;
   top: -8px;
   right: -8px;
   color: white;
-  border-radius: 50%;
+  border-radius: 100px;
   background: #f16d7f;
 }
 @media (max-width: 460px) {

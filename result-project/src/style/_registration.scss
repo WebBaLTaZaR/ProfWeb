@@ -1,8 +1,7 @@
 .registration-wrap {
   padding: 64px 0 96px;
   display: flex;
-  justify-content: space-between;
-  
+  gap: 150px;
 }
 @media (max-width: 768px) {
   .registration-wrap {
@@ -75,7 +74,6 @@
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
-  width: 652px;
   color: #000000;
 }
 @media (max-width: 460px) {
