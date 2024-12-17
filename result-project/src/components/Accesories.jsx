@@ -2,28 +2,28 @@ function Accesories() {
   return (
     <>
       <div className="accesories limit__content">
-        <div className="for__woman">
+        <div className="for__woman accesoriesItem">
           <img src="img/ForWoman.png" alt="ForWoman" />
           <div className="accesories__wrap">
             <div className="accesories_top">30% OFF</div>
             <div className="accesories_bottom">FOR WOMEN</div>
           </div>
         </div>
-        <div className="for__man">
+        <div className="for__man accesoriesItem">
           <img src="img/ForMen.png" alt="ForMen" />
           <div className="accesories__wrap">
             <div className="accesories_top">HOT DEAL</div>
             <div className="accesories_bottom">FOR MEN</div>
           </div>
         </div>
-        <div className="for__kids">
+        <div className="for__kids accesoriesItem">
           <img src="img/ForKids.png" alt="ForKids" />
           <div className="accesories__wrap">
             <div className="accesories_top">NEW ARRIVALS</div>
             <div className="accesories_bottom">FOR KIDS</div>
           </div>
         </div>
-        <div className="accesories__item">
+        <div className="accesories__item accesoriesItem">
           <img src="img/ACCESORIES.png" alt="accesories" />
           <div className="accesories__wrap">
             <div className="accesories_top">LUXIROUS & TRENDY</div>

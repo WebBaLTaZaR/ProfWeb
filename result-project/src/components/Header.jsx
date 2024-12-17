@@ -30,12 +30,12 @@ function Header() {
               <Link to="/registration" className="profile">
                 <img src="img/profile.svg" alt="profile" />
               </Link>
-              <Link to="/" className="basket">
+              <button className="basket">
                 <div>
                   <img src="img/basket.svg" alt="basket" />
                   <span className="basket__number">0</span>
                 </div>
-              </Link>
+              </button>
               <div className="basketMenu hidden">
                 <ul className="basketConst">
                   <li>Название товара</li>
