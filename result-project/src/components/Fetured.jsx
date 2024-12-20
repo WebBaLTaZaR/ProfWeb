@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import products from "./DataCards";
 function Fetured() {
   return (
@@ -37,7 +38,7 @@ function Fetured() {
           </div>
         ))}
       </div>
-      <button className="browse__button">Browse All Product</button>
+      <Link to={"/catalog"} className="browse__button">Browse All Product</Link>
     </>
   );
 }

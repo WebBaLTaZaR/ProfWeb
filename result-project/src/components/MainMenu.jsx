@@ -5,7 +5,7 @@ function MainMenu({ isHidden, handleClickHidden }) {
       <main>
         <div className={`main__dark ${isHidden ? "hidden" : ""}`}>
           <div className="nav__menu">
-            <img onClick={handleClickHidden} className="close__item" src="img/Close.png" alt="Close" />
+            <img onClick={()=>handleClickHidden("element1")} className="close__item" src="img/Close.png" alt="Close" />
             <div className="menu">MENU</div>
             <Link to="/" className="menu__ul">
               MAN

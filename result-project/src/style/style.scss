@@ -12,9 +12,7 @@
   max-width: 1140px;
   margin: 0 auto;
 }
-.hidden {
-  display: none;
-}
+
 
 @import "header.scss";
 @import "hiddenMenu.scss";
@@ -28,3 +26,8 @@
 @import "cart.scss";
 @import "registration.scss";
 @import "footer.scss";
+.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0s 0.5s;
+}

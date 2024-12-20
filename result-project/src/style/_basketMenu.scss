@@ -1,25 +1,26 @@
-
-
 .basketMenu {
-	position: absolute;
-	top: 53px;
-	left: -191px;
-	background-color: white;
-	padding: 10px;
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: 1fr ;
-	gap: 17px;
-	border-radius: 5px;
-	border: 1px solid #000;
+  position: absolute;
+  top: 53px;
+  left: -191px;
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 17px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out;
 }
 .basketConst {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border-bottom: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid gray;
 }
 .basketWar {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	border-bottom: 1px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-bottom: 1px solid gray;
 }

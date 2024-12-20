@@ -7,11 +7,15 @@ import PageCatalog from "./components/pages/PageCatalog";
 import PageProduct from "./components/pages/PageProduct";
 import PageShopping from "./components/pages/PageShopping";
 import PageRegistration from "./components/pages/PageRegistration";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   return (
     <div>
       <BrowserRouter>
+      
+      <ScrollToTop/>
       <Routes>
+      
         <Route path="/" element={<PageMain/>} />
         <Route path="/catalog" element={<PageCatalog />} />
         <Route path="/curentproduct" element={<PageProduct />} />

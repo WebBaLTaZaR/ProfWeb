@@ -1,13 +1,16 @@
 import { Link } from "react-router-dom";
 import MainMenu from "./MainMenu";
 import { useState } from "react";
-import DisableScroll from "./DisableScroll";
 function Header() {
-  const [isHidden, setIsHidden] = useState(true);
-  const [isScrollDisabled, setIsScrollDisabled] = useState(false);
-  const handleClickHidden = () => {
-    setIsHidden(!isHidden);
-    setIsScrollDisabled(!isScrollDisabled);
+  const [isHidden, setIsHidden] = useState({
+    element1: true,
+    element2: true,
+  });
+  const handleClickHidden = (element) => {
+    setIsHidden((prev) => ({
+      ...prev,
+      [element]: !prev[element],
+    }));
   };
 
   return (
@@ -24,19 +27,27 @@ function Header() {
               </Link>
             </div>
             <div className="header__right">
-              <button onClick={handleClickHidden} className="burger">
+              <button
+                onClick={() => handleClickHidden("element1")}
+                className="burger"
+              >
                 <img src="img/burger.svg" alt="burger" />
               </button>
               <Link to="/registration" className="profile">
                 <img src="img/profile.svg" alt="profile" />
               </Link>
-              <button className="basket">
+              <button
+                onClick={() => handleClickHidden("element2")}
+                className="basket"
+              >
                 <div>
                   <img src="img/basket.svg" alt="basket" />
                   <span className="basket__number">0</span>
                 </div>
               </button>
-              <div className="basketMenu hidden">
+              <div
+                className={`basketMenu ${isHidden.element2 ? "hidden" : ""}`}
+              >
                 <ul className="basketConst">
                   <li>Название товара</li>
                   <li>Количество</li>
@@ -50,10 +61,12 @@ function Header() {
               </div>
             </div>
           </nav>
-          <MainMenu isHidden={isHidden} handleClickHidden={handleClickHidden} />
+          <MainMenu
+            isHidden={isHidden.element1}
+            handleClickHidden={handleClickHidden}
+          />
         </div>
       </header>
-      <DisableScroll isScrollDisabled={isScrollDisabled} />
     </>
   );
 }
