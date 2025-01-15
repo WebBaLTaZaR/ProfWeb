@@ -7,12 +7,12 @@ function Pagination() {
         <Link className="paginationItem-red" to="/pagecatalog">
           1
         </Link>
-        <Link to="/pagecatalog">2</Link>
-        <Link to="/pagecatalog">3</Link>
-        <Link to="/pagecatalog">4</Link>
-        <Link to="/pagecatalog">5</Link>
-        <Link to="/pagecatalog">6....</Link>
-        <Link to="/pagecatalog">20</Link>
+        <Link to="/catalog">2</Link>
+        <Link to="/catalog">3</Link>
+        <Link to="/catalog">4</Link>
+        <Link to="/catalog">5</Link>
+        <Link to="/catalog">6....</Link>
+        <Link to="/catalog">20</Link>
         <span className="paginationImg-right"></span>
       </div>
     </>
